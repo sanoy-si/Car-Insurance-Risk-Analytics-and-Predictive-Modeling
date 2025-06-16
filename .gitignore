@@ -1,0 +1,23 @@
+requirements.txt
+# Data
+/data/raw/*
+/data/processed/*
+!*.dvc
+
+# Models
+/models/
+
+# Jupyter Notebook Checkpoints
+**/.ipynb_checkpoints
+
+# DVC cache (if not remote)
+/.dvc/cache/
+
+# Python cache and virtualenv
+__pycache__/
+*.pyc
+venv/
+
+# System files
+.DS_Store
+.env
