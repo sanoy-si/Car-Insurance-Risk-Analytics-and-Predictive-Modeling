@@ -1,4 +1,4 @@
 [core]
     remote = localstorage
 ['remote "localstorage"']
-    url = /Desktop/Data
+    url = /home/sanoy-si/dvc-storage
